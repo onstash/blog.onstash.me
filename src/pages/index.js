@@ -1,19 +1,20 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
-import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
+import Metadata from '../components/metadata';
 import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    const siteDescription = get(this.props, 'data.site.siteMetadata.description');
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+        <Metadata title={siteTitle} description={siteDescription} />
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
@@ -44,6 +45,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

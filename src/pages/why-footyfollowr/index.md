@@ -1,5 +1,6 @@
 ---
 title: Why Footyfollowr?
+description: In this post I explain how and why Footyfollowr came into existence.
 date: "2017-11-09T18:15:00.000Z"
 ---
 

@@ -1,19 +1,27 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import get from 'lodash/get'
 
 import Bio from '../components/Bio'
+import Metadata from '../components/metadata';
 import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
+    const {
+        data: {
+            markdownRemark: {
+                frontmatter: {
+                    title, description, date
+                },
+                html
+            }
+        }
+    } = this.props;
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
+        <Metadata title={title} description={description} />
+        <h1>{title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
@@ -22,9 +30,9 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div dangerouslySetInnerHTML={{ __html: html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -52,6 +60,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        description
       }
     }
   }
