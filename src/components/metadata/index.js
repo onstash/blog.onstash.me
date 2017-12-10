@@ -13,6 +13,7 @@ const Metadata = ({ description, title }) => (
         <meta property="twitter:description" content={description} />
         <meta property="twitter:site" content="@on_stash" />
         <meta property="twitter:creator" content="@on_stash" />
+        <title>{title}</title>
     </Helmet>
 );
 
