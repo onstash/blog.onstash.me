@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Funny Side Up',
+    author: 'Santosh Venkatraman',
+    description: 'Musings of a developer',
+    siteUrl: 'https://blog.onstash.me',
   },
   // pathPrefix: '/gatsby-starter-blog', /* breaks routes in production */
   plugins: [
