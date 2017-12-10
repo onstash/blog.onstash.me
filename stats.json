@@ -1,0 +1,52 @@
+{
+  "assetsByChunkName": {
+    "path---why-footyfollowr": [
+      "path---why-footyfollowr-88060afc55d75a74a02c.js",
+      "path---why-footyfollowr-88060afc55d75a74a02c.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-f89c7dbf8c3f7b213ab9.js",
+      "component---src-pages-index-js-f89c7dbf8c3f7b213ab9.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-df6efc88804845508d53.js",
+      "component---src-templates-blog-post-js-df6efc88804845508d53.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-7fb6deb419616c6d01cc.js",
+      "component---src-layouts-index-js-7fb6deb419616c6d01cc.js.map"
+    ],
+    "path---index": [
+      "path---index-5e5ec7d1b86accf886fe.js",
+      "path---index-5e5ec7d1b86accf886fe.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-5d7860d250cac89e253a.js",
+      "path---hello-world-5d7860d250cac89e253a.js.map"
+    ],
+    "commons": [
+      "commons-edc96cc46b61a28c7883.js",
+      "build-js-styles.css",
+      "commons-edc96cc46b61a28c7883.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-3a1934fe49fb0831c062.js",
+      "build-js-styles.css",
+      "app-3a1934fe49fb0831c062.js.map",
+      "build-js-styles.css.map"
+    ]
+  }
+}
