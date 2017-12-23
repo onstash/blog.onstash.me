@@ -1,7 +1,10 @@
 ---
 title: Why Footyfollowr?
 description: In this post I explain how and why Footyfollowr came into existence.
-date: "2017-11-09T18:15:00.000Z"
+date: "2017-11-09"
+slug: "why-footyfollowr"
+previous: "hello-world"
+category: "footyfollowr"
 ---
 
 College life involved lots of new experiences, football being one of them. It all started off with late night FIFA matches in the hostel, culminating into nail biting frenzy over watching matches which often extended till 4 am. I was surrounded by passionate and highly knowledgeable fans who knew their teams and players well, and got into heated debates defending their clubs. Over the course of 4 years, I got used to friends talking about their favourite teams and players, and subsequently found myself in a vortex of updates from them.
