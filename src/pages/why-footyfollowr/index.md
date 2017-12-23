@@ -4,6 +4,7 @@ description: In this post I explain how and why Footyfollowr came into existence
 date: "2017-11-09"
 slug: "why-footyfollowr"
 previous: "hello-world"
+next: "what-is-react-asynccomponent"
 category: "footyfollowr"
 ---
 
