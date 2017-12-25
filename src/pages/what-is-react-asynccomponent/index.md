@@ -4,6 +4,7 @@ description: "Does anybody know what that is?"
 date: "2017-12-24"
 slug: "what-is-react-asynccomponent"
 previous: "why-footyfollowr"
+next: "event-bubbling-in-javascript"
 ---
 
 In the past week, I happened to stumble upon a class named "AsyncComponent" in Facebook's ReactJS [source code](https://github.com/facebook/react/blob/0280e93b1152d37b6b784dffbd04088c4e2dda90/packages/react/src/ReactBaseClasses.js#L141). I did some digging on my own. Turns out, [it](https://github.com/facebook/react/blob/0280e93b1152d37b6b784dffbd04088c4e2dda90/packages/react/src/ReactBaseClasses.js#L155) has a `prototype` called `unstable_isAsyncReactComponent` which indicates that this is unstable API and might change in the future.
