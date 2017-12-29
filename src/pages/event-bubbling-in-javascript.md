@@ -4,6 +4,7 @@ description: "Javascript's very own Bubble Wrap™ implementation (unofficial)"
 date: "2017-12-26"
 slug: "event-bubbling-in-javascript"
 previous: "what-is-react-asynccomponent"
+next: "looking-back-at-2017"
 ---
 
 I'll be honest here. I didn't specifically search for "event bubbling in javascript" on Google (nobody uses Yahoo) and decide to write about it. I was going through [Wesbos](https://goo.gl/u9p5ZN)' ["Javascript30"](https://goo.gl/BDYzAe) course. Video #25 was (and still is) titled "Event Capture, Propogation, Bubbling and Once". I was mainly intrigued by the term "bubbling". I also didn't know what "once" in the title meant. So I decided to dig up and read about it.
