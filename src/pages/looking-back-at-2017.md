@@ -6,11 +6,11 @@ slug: "looking-back-at-2017"
 previous: "event-bubbling-in-javascript"
 ---
 
-2017 started off on a noisy note thanks to people blasting a LOT of crackers. So the backstreet dogs decided to howl before their standard 3AM standup meeting. And like any other fellow who reviews his year, I happened to go through *ups* and *downs* & experience *positive* and *negative* things. But unlike other fellows, I am going to label them as *lessons learnt*.
+2017 started off on a noisy note thanks to people blasting a LOT of crackers. So the backstreet dogs decided to howl before their standard 3AM standup meeting. Just like other hoomans, I happened to go through *ups* and *downs* in this year. But unlike other hoomans, I am going to label them as *lessons learnt* and nothing else.
 
 ### Play time
 
-To start things off in 2017, I finally got to act in a play that was 80 minutes long. After being involved with college theater in various capacities since 2013, I went up on stage for the very first time in Bangalore under the banner of CreaShakthi, a prominent theater group in Madras. All the credits go to my friends who trained me. In spite of logistical and people issues, we managed to practice a lot before the play. In the end, we had a fantastic show in Jagriti Theater, Whitefield on February 18th. The play was about 5 people in a line and their struggles of coming first in it. We also put up a show in Madras on March 24th.
+2017 started off on a good note. I finally got to act in a play that was 80 minutes long. It was about 5 people in a line and their struggles of coming first in it. We had two shows - one in Bangalore and another in Madras under the banner of CreaShakthi, a prominent theater group in Madras. In spite of living in different continents of Bangalore, we managed to practice quite a bit before the play. All the credits go to my friends who trained me.
 
 ### Musings
 
@@ -70,14 +70,6 @@ This year has been quite eventful as a developer -
 ### Books
 
 I'll be honest here. I am not an avid reader like those who read 3000 books a year while Facebooking and/or Instgramming and/or and/or Instagram-story-ing and/or Whatsapp-story-ing quotes from them. TN board would have built a statue for you if you were a student and topped their results by being the 400th "1st rank in state" person. I managed to read 3 books this year - _Outliers_ by _Malcom Gladwell_, _The Defining Decade_ by _Meg Ryan_ and _How to win friends and influence people_ by Dale Carnegie. As you observed from the hoomans section, I am not strong at dealing with hoomans. The important thing about reading non-fiction books is to understand, analyze and apply them in your life. There's no point in throwing stones at a dog & getting bit by it when the author clearly states that doing the same will get you bit and having an epiphany about what the author actually said, 5 years later.
-
-### Adulting
-
-- After my Dell Inspiron n5110 died of a heart attack in the maternal side, I decided to buy a Macbook Pro via my sister. There was no objective reason why other laptops with similar functionalities couldn't make the cut or why this laptop was the best there is. I wanted to buy it because it was part of my bucket list.
-
-- By finally agreeing with my sister and a wise old acquaintance of mine, I got a credit card. People who cared enough warned me about credit card debt and how to spend in a planned and careful manner. So far, I have not used my credit card other than the EMI that I pay every month for buying OnePlus 5 and buying monthly groceries.
-
-- Started cooking after looking at the long term benefits of it
 
 As a footnote, I would like to thank everybody involved in the past year. You know who you're.
 
