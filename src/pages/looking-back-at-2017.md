@@ -10,7 +10,7 @@ previous: "event-bubbling-in-javascript"
 
 ### Play time
 
-2017 started off on a good note. I finally got to act in a play that was 80 minutes long. It was about 5 people in a line and their struggles of coming first in it. We had two shows - one in Bangalore and another in Madras under the banner of CreaShakthi, a prominent theater group in Madras. In spite of living in different continents of Bangalore, we managed to practice quite a bit before the play. All the credits go to my friends who trained me.
+I finally got to act in a play that was 80 minutes long. It was about 5 people in a line and their struggles of coming first in it. We had two shows - one in Bangalore and another in Madras under the banner of CreaShakthi, a prominent theater group in Madras. In spite of living in different continents of Bangalore, we managed to practice quite a bit before the play. All the credits go to my friends who trained me.
 
 ### Musings
 
