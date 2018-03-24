@@ -6,7 +6,7 @@ slug: "looking-back-at-2017"
 previous: "event-bubbling-in-javascript"
 ---
 
-2017 started off on a noisy note thanks to people blasting a LOT of crackers. So the backstreet dogs decided to howl before their standard 3AM standup meeting. Just like other hoomans, I happened to go through *ups* and *downs* in this year. But unlike other hoomans, I am going to label them as *lessons learnt* and nothing else.
+2017 started off on a noisy note thanks to people blasting a LOT of crackers. So the backstreet dogs decided to howl before their standard 3AM standup meeting. Just like other people, I happened to go through *ups* and *downs* in this year. But unlike other people, I am going to label them as *lessons learnt* and nothing else.
 
 ### Play time
 
@@ -45,31 +45,27 @@ This year has been quite eventful as a developer -
 -   **Blogging is fun and useful**
     After years of contemplation, I have started to blog mostly about my musings as developer [here](https://goo.gl/BPqZdZ). It is fun and useful because I am documenting things that I encounter.
 
-### Hoomans
+### People
 
-- First of all **study** Dale Carnegie's **How to win friends and influence people**, remember his teachings and apply it when dealing with hoomans. This is a note to self.
+- I recommend everybody **study** Dale Carnegie's **How to win friends and influence people**, remember his teachings and apply it when dealing with people. This is a note to self.
 
-- You're dealing with beings of emotion. Objectivity won't work every time. Try throwing objectivity at your girlfriend when she's pissed off at you for emotional reasons.
+- Be objective wherever possible. I say 'whenever possible' because you're dealing with beings of emotion. Objectivity won't work every time. Try throwing objectivity at your girlfriend when she's pissed off at you for emotional reasons and see what happens. Trust me, it's a fun experiment.
 
-- Communicate in a crisp and concise manner devoid of any tones.
+- Try to communicate in a crisp and concise manner devoid of any tones. I am still learning how to.
 
-- Be nice to hoomans. Saying "hello", "thank you" etc goes a long way.
+- Be nice to people. Saying "hello", "thank you" etc goes a long way.
 
-- Try not to be a dick to others because one day someone will definitely be a dick to you and I don't think you'll like it.
+- There is a clear difference between being straightforward and being a dick. Some wise people I know made me understand the difference.
 
-- Avoid or minimize contact with hoomans who think the world revovles around them.
+- Avoid or minimize contact with people who think the world revolves around them.
 
-- When you're objectively asking someone and they dodge answering it by talking about the manner in which you asked or wielding their "authority" card or they answer it with knee-jerk (read "me-jerk") replies, congratulations are finally in order. You're officially dealing with a kid having fragile ego bubbles. WAAH WAAH WAAH!
+- Try to factor in an individual's effort into something when giving feedback.
 
-- Try not to label hoomans and force the labeling on others by constantly talking about it. That's basically force-feeding your bias onto others.
-
-- When giving objective feedback, try to be nice and try hard not to shit on them and their work in the pretext of "giving objective feedback". Or if you plan to do the latter, at least give them the oppurtunity for them to gift a basket of freshly generated excreta as feedback to your work.
-
-- There are a lot of people narrativizing their way through everyday life. Read this [Buzzfeed longread](https://www.buzzfeed.com/annehelenpetersen/ten-long-years-of-trying-to-make-armie-hammer-happen?utm_term=.jcaxlpzvO#.odKKQmYEe) (I promise it's neither an oxymoron nor a listicle) if you're unsure of what I am talking about.
+- Try not to narrativize your way through everyday life. Read this [Buzzfeed longread](https://www.buzzfeed.com/annehelenpetersen/ten-long-years-of-trying-to-make-armie-hammer-happen?utm_term=.jcaxlpzvO#.odKKQmYEe) (I promise it's neither an oxymoron nor a listicle) if you're unsure of what I am talking about.
 
 ### Books
 
-I'll be honest here. I am not an avid reader like those who read 3000 books a year while Facebooking and/or Instgramming and/or and/or Instagram-story-ing and/or Whatsapp-story-ing quotes from them. TN board would have built a statue for you if you were a student and topped their results by being the 400th "1st rank in state" person. I managed to read 3 books this year - _Outliers_ by _Malcom Gladwell_, _The Defining Decade_ by _Meg Ryan_ and _How to win friends and influence people_ by Dale Carnegie. As you observed from the hoomans section, I am not strong at dealing with hoomans. The important thing about reading non-fiction books is to understand, analyze and apply them in your life. There's no point in throwing stones at a dog & getting bit by it when the author clearly states that doing the same will get you bit and having an epiphany about what the author actually said, 5 years later.
+I'll be honest here. I am not an avid reader. I managed to read 3 books this year - _Outliers_ by _Malcom Gladwell_, _The Defining Decade_ by _Meg Ryan_ and _How to win friends and influence people_ by Dale Carnegie. The important thing about reading non-fiction books is to hopefully understand, analyze and apply them in your life.
 
 As a footnote, I would like to thank everybody involved in the past year. You know who you're.
 
