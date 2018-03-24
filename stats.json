@@ -1,12 +1,16 @@
 {
   "assetsByChunkName": {
     "path---why-footyfollowr": [
-      "path---why-footyfollowr-88060afc55d75a74a02c.js",
-      "path---why-footyfollowr-88060afc55d75a74a02c.js.map"
+      "path---why-footyfollowr-d562c9a631c2b9a86726.js",
+      "path---why-footyfollowr-d562c9a631c2b9a86726.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f89c7dbf8c3f7b213ab9.js",
-      "component---src-pages-index-js-f89c7dbf8c3f7b213ab9.js.map"
+      "component---src-pages-index-js-1be7ceaa0eb42ba561eb.js",
+      "component---src-pages-index-js-1be7ceaa0eb42ba561eb.js.map"
+    ],
+    "path---what-is-react-asynccomponent": [
+      "path---what-is-react-asynccomponent-65676eba77725b199e67.js",
+      "path---what-is-react-asynccomponent-65676eba77725b199e67.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,20 +21,28 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-df6efc88804845508d53.js",
-      "component---src-templates-blog-post-js-df6efc88804845508d53.js.map"
+      "component---src-templates-blog-post-js-ab2be3d49095d096a0d0.js",
+      "component---src-templates-blog-post-js-ab2be3d49095d096a0d0.js.map"
+    ],
+    "path---looking-back-at-2017": [
+      "path---looking-back-at-2017-bf77599374c978b2ec24.js",
+      "path---looking-back-at-2017-bf77599374c978b2ec24.js.map"
+    ],
+    "path---event-bubbling-in-javascript": [
+      "path---event-bubbling-in-javascript-c2cd2ae1cf1c34adfef2.js",
+      "path---event-bubbling-in-javascript-c2cd2ae1cf1c34adfef2.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-7fb6deb419616c6d01cc.js",
       "component---src-layouts-index-js-7fb6deb419616c6d01cc.js.map"
     ],
     "path---index": [
-      "path---index-5e5ec7d1b86accf886fe.js",
-      "path---index-5e5ec7d1b86accf886fe.js.map"
+      "path---index-8d7c5371613bc7d245af.js",
+      "path---index-8d7c5371613bc7d245af.js.map"
     ],
     "path---hello-world": [
-      "path---hello-world-5d7860d250cac89e253a.js",
-      "path---hello-world-5d7860d250cac89e253a.js.map"
+      "path---hello-world-a6cd3e5421813913f031.js",
+      "path---hello-world-a6cd3e5421813913f031.js.map"
     ],
     "commons": [
       "commons-edc96cc46b61a28c7883.js",
@@ -43,9 +55,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-3a1934fe49fb0831c062.js",
+      "app-e9cc7ab59fa83e7f1392.js",
       "build-js-styles.css",
-      "app-3a1934fe49fb0831c062.js.map",
+      "app-e9cc7ab59fa83e7f1392.js.map",
       "build-js-styles.css.map"
     ]
   }
