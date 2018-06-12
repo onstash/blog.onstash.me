@@ -4,6 +4,7 @@ description: "I'll be (looking) back"
 date: "2017-12-29"
 slug: "looking-back-at-2017"
 previous: "event-bubbling-in-javascript"
+next: "type-checking-in-python"
 ---
 
 2017 started off on a noisy note thanks to people blasting a LOT of crackers. So the backstreet dogs decided to howl before their standard 3AM standup meeting. Just like other people, I happened to go through *ups* and *downs* in this year. But unlike other people, I am going to label them as *lessons learnt* and nothing else.
