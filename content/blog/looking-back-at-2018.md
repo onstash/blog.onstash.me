@@ -30,7 +30,8 @@ Notable things -
 
     As part of Creashakthi Bangalore's 2nd production, this serious play 'The Undertrials' was a whole new experience. For those who don't know, Creashakthi is a Chennai based theater group. I got to work with new people from different backgrounds (college kid, marketing manager, nano-chip designer, lawyer-turned-actor, and a full-time actor). Dushyanth (founder of Creashakthi) liked my performance and got head dunked in water on stage & beaten to a pulp. I guess I could check off two things of my *bucket* list.
 
-- Highly recommend **[Hemingwayapp](http://www.hemingwayapp.com/) and Grammarly: for content writing**
+- Highly recommend **[Hemingwayapp](http://www.hemingwayapp.com/) and Grammarly** for **content writing**
+
 
 - **Marketing is hard, especially in the B2C space**
 
