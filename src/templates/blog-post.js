@@ -1,85 +1,64 @@
 import React from 'react'
-import get from 'lodash/get'
-import Link from 'gatsby-link'
+import { Link, graphql } from 'gatsby'
 
 import Bio from '../components/Bio'
-import Metadata from '../components/metadata';
+import Layout from '../components/Layout'
+import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
-
-const PreviousNextPostNavigation = ({ previous, next }) => {
-    if (!previous && !next) {
-        return null;
-    }
-
-    return (
-        <div
-            className="navigation"
-            style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                marginBottom: "20px"
-            }}
-        >
-            {
-                previous ? (
-                    <Link to={previous} style={{ boxShadow: "none" }}>
-                        {"<-"} Read previous
-                    </Link>
-                ) : <div />
-            }
-            {
-                next ? (
-                    <Link to={next} style={{ boxShadow: "none" }}>
-                        Read next ->
-                    </Link>
-                ) : null
-            }
-        </div>
-    );
-}
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const {
-        data: {
-            markdownRemark: {
-                frontmatter: {
-                    title, description, date,
-                    next, previous
-                },
-                html
-            }
-        }
-    } = this.props;
+    const post = this.props.data.markdownRemark
+    const siteTitle = this.props.data.site.siteMetadata.title
+    const { previous, next } = this.props.pageContext
+
     return (
-      <div>
-        <Metadata title={title} description={description} />
-        <h1>{title}</h1>
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO title={post.frontmatter.title} description={post.excerpt} />
+        <h1>{post.frontmatter.title}</h1>
         <p
           style={{
             ...scale(-1 / 5),
-            display: 'block',
+            display: `block`,
             marginBottom: rhythm(1),
             marginTop: rhythm(-1),
           }}
         >
-          {date}
+          {post.frontmatter.date}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
-        <hr
-          style={{
-            marginBottom: "15px"
-          }}
-        />
-        <PreviousNextPostNavigation previous={previous} next={next} />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
         <Bio />
-      </div>
+
+        <ul
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            justifyContent: `space-between`,
+            listStyle: `none`,
+            padding: 0,
+          }}
+        >
+          <li>
+            {previous && (
+              <Link to={previous.fields.slug} rel="prev">
+                ← {previous.frontmatter.title}
+              </Link>
+            )}
+          </li>
+          <li>
+            {next && (
+              <Link to={next.fields.slug} rel="next">
+                {next.frontmatter.title} →
+              </Link>
+            )}
+          </li>
+        </ul>
+      </Layout>
     )
   }
 }
@@ -96,14 +75,11 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
+      excerpt(pruneLength: 160)
       html
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description
-        category
-        next
-        previous
       }
     }
   }

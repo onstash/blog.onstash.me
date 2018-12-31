@@ -1,18 +1,13 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import { Container } from 'react-responsive-grid'
+import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
 
-class Template extends React.Component {
+class Layout extends React.Component {
   render() {
-    const { location, children } = this.props
+    const { location, title, children } = this.props
+    const rootPath = `${__PATH_PREFIX__}/`
     let header
-
-    let rootPath = `/`
-    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
-      rootPath = __PATH_PREFIX__ + `/`
-    }
 
     if (location.pathname === rootPath) {
       header = (
@@ -25,13 +20,13 @@ class Template extends React.Component {
         >
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
             }}
-            to={'/'}
+            to={`/`}
           >
-            Funny Side Up
+            {title}
           </Link>
         </h1>
       )
@@ -39,36 +34,41 @@ class Template extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
             marginBottom: rhythm(-1),
           }}
         >
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              boxShadow: `none`,
+              textDecoration: `none`,
+              color: `inherit`,
             }}
-            to={'/'}
+            to={`/`}
           >
-            Funny Side Up
+            {title}
           </Link>
         </h3>
       )
     }
     return (
-      <Container
+      <div
         style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
           maxWidth: rhythm(24),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
         {header}
-        {children()}
-      </Container>
+        {children}
+        <footer>
+          © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </footer>
+      </div>
     )
   }
 }
 
-export default Template
+export default Layout
