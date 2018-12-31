@@ -4,6 +4,7 @@ description: "Type-checking Function Arguments for Humans™"
 date: "2018-06-06"
 slug: "type-checking-in-python"
 previous: "looking-back-at-2017"
+next: "looking-back-at-2018"
 ---
 
 Type checking function arguments is a common sanity check for function arguments in Python.

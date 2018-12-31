@@ -1,26 +1,22 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import Link from 'gatsby-link'
+import get from 'lodash/get'
 
 import Bio from '../components/Bio'
-import Layout from '../components/Layout'
-import SEO from '../components/seo'
+import Metadata from '../components/metadata';
 import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title');
+    const siteDescription = get(this.props, 'data.site.siteMetadata.description');
+    const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title="All posts"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
-        />
-        <Bio />
+      <div>
+        <Metadata title={siteTitle} description={siteDescription} />
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+          const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div key={node.fields.slug}>
               <h3
@@ -28,7 +24,7 @@ class BlogIndex extends React.Component {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
@@ -37,7 +33,7 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-      </Layout>
+      </div>
     )
   }
 }
@@ -45,10 +41,11 @@ class BlogIndex extends React.Component {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
+  query IndexQuery {
     site {
       siteMetadata {
         title
+        description
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -58,9 +55,13 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          timeToRead
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD MMMM, YYYY")
             title
+            category
+            next
+            previous
           }
         }
       }

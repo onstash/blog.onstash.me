@@ -1,8 +1,5 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+## blog.onstash.me
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
+My personal blog. Forked from Gatsby blog starter.
 
-## Running in development
-`gatsby develop`
+To run locally, yarn, then yarn dev, then open https://localhost:8000.
