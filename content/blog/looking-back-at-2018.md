@@ -32,6 +32,8 @@ Notable things -
 
 - Highly recommend **[Hemingwayapp](http://www.hemingwayapp.com/) and Grammarly** for **content writing**
 
+- Fell in love with [Twitter's mobile site](https://mobile.twitter.com), it's tweet thread & bookmarks features
+
 
 - **Marketing is hard, especially in the B2C space**
 
