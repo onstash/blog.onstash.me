@@ -38,7 +38,7 @@ Notable things -
 
 - **Marketing is hard, especially in the B2C space**
 
-    Last year I was enthusiastic in building Footyfollowr. My main pitch point was sOmE tEcHy ThInG tHaT aDdS nO tAnGiBlE vAlUe To A nOrMaL uSeR. Yes I am a fan of Spongebob memes. TODO - Have to read more about marketing.
+    Last year I was enthusiastic about building Footyfollowr. My main pitch point was sOmE tEcHy ThInG tHaT aDdS nO tAnGiBlE vAlUe To A nOrMaL uSeR. Yes, I am a fan of Spongebob memes. TODO - Have to read more about marketing.
 
 - **Code review is easy if done in smaller chunks**
 
@@ -46,7 +46,7 @@ Notable things -
 
 - **"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."**
 
-    That was quoted by Martin Fowler, in "Refactoring: Improving the Design of Existing Code". A solo developer in a team full of developers becomes that 'fool'. Incoherent documentation, broken setup scripts, improper dependency versioning, etc is a common theme. It could be worse - single line readme and unmaintable hacky "legacy" codebase that some poor soul has to inherit. It takes a toll on the other employees (mental) and the company (financial) to inherit and maintain such codebases with large technical debt.
+    That was quoted by Martin Fowler, in "Refactoring: Improving the Design of Existing Code". A solo developer in a team full of developers becomes that 'fool'. Incoherent documentation, broken setup scripts, improper dependency versioning, etc is a common theme. It could be worse - single line readme and unmaintainable hacky "legacy" codebase that some poor soul has to inherit. It takes a toll on the other employees (mental) and the company (financial) to inherit and maintain such codebases with large technical debt.
 
 - Email communication is **underrated**
 
