@@ -34,6 +34,7 @@ Notable things -
 
 - Fell in love with [Twitter's mobile site](https://mobile.twitter.com), it's tweet thread & bookmarks features
 
+- Discovered a beautiful platform called [dev.to](https://dev.to) through [Twitter](https://mobile.twitter.com)
 
 - **Marketing is hard, especially in the B2C space**
 
