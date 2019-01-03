@@ -1,15 +1,25 @@
 #! /bin/bash
 
 publicDir="public"
+cacheDir=".cache"
 domain="https://blog.onstash.me"
-if [[ -d ${publicDir} ]]; then
-    echo "[WARNING] Folder 'public' already exists. Removing..."
-    rm -rf ${publicDir}
-fi
+
+function removeDir {
+  if [[ -d $1 ]]; then
+    echo "[WARNING] Folder '$1' already exists. Removing..."
+    rm -rf $1
+  fi
+}
+
+removeDir ${publicDir}
+removeDir ${cacheDir}
 
 echo "[INFO] Running build"
-yarn build
+npm run build
 
-
-echo "[DEPLOYING] to ${domain}"
-surge --domain ${domain} ${publicDir}
+if [[ $? == 0 ]]; then
+    echo "[INFO] Deploying to ${domain}"
+    surge --domain ${domain} ${publicDir}
+else
+    echo "[ERROR] Deploying failed"
+fi
