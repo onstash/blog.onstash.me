@@ -28,11 +28,13 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Bangalore, India building useful things.
+              Personal blog by
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
+                {author}
+              </a>.
+              <br/>
+              Technology, life, and such.
             </p>
           </div>
         )
