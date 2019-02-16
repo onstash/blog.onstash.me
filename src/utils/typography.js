@@ -1,11 +1,15 @@
 import Typography from 'typography'
 import Wordpress2016 from 'typography-theme-wordpress-2016'
 
-Wordpress2016.overrideThemeStyles = () => {
+Wordpress2016.overrideThemeStyles = ({ adjustFontSizeTo, rhythm }, options, styles) => {
   return {
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
+    'a': {
+        ...styles.a,
+        color: `#50A`
+    }
   }
 }
 

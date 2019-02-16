@@ -5,7 +5,7 @@ module.exports = {
     description: `Musings of a developer`,
     siteUrl: `https://blog.onstash.me`,
     social: {
-      twitter: `on_stash`,
+      twitter: `https://mobile.twitter.com/on_stash`,
     },
   },
   plugins: [
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/android-chrome-512x512.png`,
       },
     },
     `gatsby-plugin-offline`,
