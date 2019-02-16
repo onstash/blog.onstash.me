@@ -4,6 +4,7 @@ description: "I'll be (looking) back"
 date: "2018-12-31"
 slug: "looking-back-at-2018"
 previous: "type-checking-in-python"
+next: "nginx-subdomain-config"
 ---
 
 Yelo and welcome to yet another episode in the "looking back at" series. This time it's 2018 and boy does it look positive. [Last year](/looking-back-at-2017/), backstreet dogs inaugurated the new year. 2k18 began with a piss drunk gentleman hanging off a parapet wall. He was shouting "Happy New Year" while his friends were begging him not to drop dead.
