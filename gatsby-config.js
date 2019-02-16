@@ -5,7 +5,7 @@ module.exports = {
     description: `Musings of a developer`,
     siteUrl: `https://blog.onstash.me`,
     social: {
-      twitter: `on_stash`,
+      twitter: `https://mobile.twitter.com/on_stash`,
     },
   },
   plugins: [
