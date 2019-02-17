@@ -7,6 +7,8 @@ previous: "looking-back-at-2018"
 ---
 Configuring nginx for subdomains in the same machine was confusing for me. So I am writing this tutorial primarily for (self)reference but people can find it useful. Without much ado, let's get started.
 
+For those of you who don't know what nginx is exactly, head over to this [freeCodeCamp article](https://medium.freecodecamp.org/an-introduction-to-nginx-for-developers-62179b6a458f) as a starting point.
+
 I assume you're on a linux machine and you know what nginx means.
 
 First and foremost, install nginx -
