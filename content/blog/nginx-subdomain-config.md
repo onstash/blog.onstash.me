@@ -122,7 +122,7 @@ From the above you can gather the following points -
 
 Next obvious question is - how do I configure subdomains?
 
-It's not that complicated. It involves 5 steps - 
+It's not that complicated. It involves 7 steps - 
 
 * Copy the default configuration and rename it as `subdomain1.example.com`.
 ```bash
@@ -141,4 +141,5 @@ sudo ln -s /etc/nginx/sites-available/subdomain1.example.com /etc/nginx/sites-en
 * Restart the nginx server
 * If you're using a DNS provider like Cloudflare, add the box's IP to it with an A record `subdomain1.example.com`. If not, then add the box's IP and subdomain1.example.com to /etc/hosts.
 * Load `subdomain1.example.com` on the browser to check how it loads. If everything is fine, you will see the HTML that you wrote for this subdomain.
-* Extend the same methodology for `subdomain2.example.com` in case/when you need it.
+
+Extend the same approach for any other domain or subdomain that you require.
