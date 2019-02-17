@@ -113,7 +113,7 @@ server {
 ```
 
 From the above you can gather the following points - 
-* `server {}` - that tells nginx that "Hey this is how I think should configure the server"
+* `server {}` - that tells nginx that "Hey this is how I think you should configure the server"
 * `listen 80` - translates to "Listen to port 80, which is the default port for web clients"
 * `root /var/www/html;` - nginx understands that HTML file/files from that location can be served
 * `index index.html index.htm index.nginx-debian.html;` - this indicates that these kind of files should be served in a decreasing order of priority (left to right).
