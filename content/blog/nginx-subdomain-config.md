@@ -4,6 +4,7 @@ description: "Configure nginx to host multiple subdomains"
 date: "2019-02-16"
 slug: "nginx-subdomain-config"
 previous: "looking-back-at-2018"
+next: "learnings-june-30-to-july-13-2019"
 ---
 Configuring nginx for subdomains in the same machine was confusing for me. So I am writing this tutorial primarily for (self)reference but people can find it useful. Without much ado, let's get started.
 
