@@ -25,8 +25,12 @@ I managed to use my own blog post a reference point for an nginx related problem
 
 ### Social personas for social capital
 
-I have come to terms that social personas and real-life personas aren't the same for some people who claim the opposite. Using the [5-whys technique](https://en.wikipedia.org/wiki/5_Whys), I understood that social capital and personal moats are the reasons why they do it. Not saying building social capital and personal moats are bad but claiming to be someone you're not is not recommended. :)
+I have come to terms that social personas and real-life personas aren't the same for some people who claim the opposite. Using the [5-whys technique](https://en.wikipedia.org/wiki/5_Whys), I understood that social capital and personal moats are the reasons why they do it. Not saying building social capital and personal moats are bad but claiming to be someone you're not says a lot about your ethical framework or lack thereof. :)
 
 ### People are the underlying currency
 
 I have come to terms that people are the underlying currency in any field/domain you operate. Being a "misanthrope" is not useful in the long run, especially in the Indian context. Understanding people unlocks different avenues, personally and professionally.
+
+### Product-market-fit and feature-market-fit
+
+Product-market-fit is getting the *Right Product* in the *Right Package* for the *Right User* at the *Right Time* (it is one of many definitions). It is not constant and can break after a period of time. Personally, *product-market-fit is like telling a joke, timing and audience are very important.* I also learnt about something called "feature-market-fit" where your product features also need to have a fit with the market. Set aside Henry Ford's and Steve Jobs' famous quotes of people not knowing what they want for a moment and ask your users two very important questions - "How disappointed will you be if this product does not exist tomorrow?" and "Who else do you think would love the product?". Both of them help find the right market for your product. Also focus on reducing the inhibitions for using the product and not on rewarding them for using it. All these insights are gathered from a product-meetup I happened to attend today morning.
