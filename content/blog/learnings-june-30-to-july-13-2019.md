@@ -4,6 +4,7 @@ description: "Learnings from June 30th to July 13th"
 date: "2019-07-13"
 slug: "learnings-june-30-to-july-13-2019"
 previous: "nginx-subdomain-config"
+next: "mental-health-perspective"
 ---
 These past 2 weeks have been wonderful for learning certain things and applying them. I have also realized that blogs are public diaries for future reference.
 
