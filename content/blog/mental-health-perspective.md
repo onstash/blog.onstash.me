@@ -4,6 +4,7 @@ description: "This is a post about my perspective on mental health"
 date: "2019-08-13"
 slug: "mental-health-perspective"
 previous: "learnings-june-30-to-july-13-2019"
+next: "improving-dunzo-search-ux"
 ---
 Mental health recently became a subject of public discussion again in my circles. This is after a prominent company founder ended his life at the end of July 2019.
 
